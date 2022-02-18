@@ -1,5 +1,5 @@
 echo off
-cmd /C ndk-build -j4
+cmd /C ndk-build.cmd -j4
 echo %time%
 echo Build Openssl in windows NDK!
 
